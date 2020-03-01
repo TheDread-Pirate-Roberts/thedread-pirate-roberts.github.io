@@ -869,11 +869,14 @@ input[type="button"].btn--primary:focus {
     height: 6rem !important;
     line-height: calc(6rem - .4rem) !important;
 }
-
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
     border: 0.2rem solid #39b54a;
     color: #39b54a;
+}
+
+.btn--stroke.download {
+  padding-left: 2rem;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
