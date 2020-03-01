@@ -1546,16 +1546,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav__social {
-    zoom: 140%;
-    left: 50%;
-    margin-right: -50%;
+    zoom: 130%;
     list-style: none;
     display: inline-block;
     font-size: 1.8rem;
 }
 
 .header-nav__social li {
-    margin-right: 12px;
+    margin-right: 13px;
     padding-left: 0;
     display: inline-block;
 }
@@ -3122,7 +3120,6 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-social {
-    zoom: 90%;
     list-style: none;
     display: inline-block;
     margin: 0;
