@@ -1546,9 +1546,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav__social {
+    zoom: 140%;
+    left: 50%;
+    margin-right: -50%;
     list-style: none;
     display: inline-block;
-    margin: 0;
     font-size: 1.8rem;
 }
 
@@ -1895,6 +1897,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## home social 
  * ------------------------------------------------------------------- */
 .home-social {
+    zoom: 150%;
     font-family: "montserrat-regular", sans-serif;
     list-style: none;
     margin: 0;
@@ -3119,6 +3122,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-social {
+    zoom: 90%;
     list-style: none;
     display: inline-block;
     margin: 0;
